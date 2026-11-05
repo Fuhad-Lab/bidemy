@@ -144,7 +144,14 @@ export default function SectionShell({ role, links, active, maxWidth = 900, chil
   const toggleDrawer = React.useCallback(() => setMobileOpen((open) => !open), []);
 
   return (
-    <Box sx={{ display: 'flex', minHeight: '100vh', bgcolor: 'background.default' }}>
+    <Box
+      sx={{
+        display: 'flex',
+        flexDirection: 'column',
+        minHeight: '100vh',
+        bgcolor: 'background.default',
+      }}
+    >
       <AppBar
         position="sticky"
         elevation={0}
@@ -198,53 +205,56 @@ export default function SectionShell({ role, links, active, maxWidth = 900, chil
         </Toolbar>
       </AppBar>
 
-      {/* Permanent sidebar — md and up */}
-      <Drawer
-        variant="permanent"
-        open
-        sx={{
-          display: { xs: 'none', md: 'block' },
-          width: DRAWER_WIDTH,
-          flexShrink: 0,
-          '& .MuiDrawer-paper': {
+      {/* Row below the app bar: sidebar + content */}
+      <Box sx={{ display: 'flex', flex: 1, minWidth: 0 }}>
+        {/* Permanent sidebar — md and up */}
+        <Drawer
+          variant="permanent"
+          open
+          sx={{
+            display: { xs: 'none', md: 'block' },
             width: DRAWER_WIDTH,
-            boxSizing: 'border-box',
-            bgcolor: 'background.paper',
-            borderRight: '1px solid',
-            borderColor: 'divider',
-          },
-        }}
-      >
-        {drawerContent(role, links, active, closeDrawer)}
-      </Drawer>
+            flexShrink: 0,
+            '& .MuiDrawer-paper': {
+              width: DRAWER_WIDTH,
+              boxSizing: 'border-box',
+              bgcolor: 'background.paper',
+              borderRight: '1px solid',
+              borderColor: 'divider',
+            },
+          }}
+        >
+          {drawerContent(role, links, active, closeDrawer)}
+        </Drawer>
 
-      {/* Temporary sidebar — small screens */}
-      <Drawer
-        variant="temporary"
-        open={mobileOpen}
-        onClose={closeDrawer}
-        ModalProps={{ keepMounted: true }}
-        sx={{
-          display: { xs: 'block', md: 'none' },
-          '& .MuiDrawer-paper': { width: DRAWER_WIDTH, boxSizing: 'border-box' },
-        }}
-      >
-        {drawerContent(role, links, active, closeDrawer)}
-      </Drawer>
+        {/* Temporary sidebar — small screens */}
+        <Drawer
+          variant="temporary"
+          open={mobileOpen}
+          onClose={closeDrawer}
+          ModalProps={{ keepMounted: true }}
+          sx={{
+            display: { xs: 'block', md: 'none' },
+            '& .MuiDrawer-paper': { width: DRAWER_WIDTH, boxSizing: 'border-box' },
+          }}
+        >
+          {drawerContent(role, links, active, closeDrawer)}
+        </Drawer>
 
-      <Box
-        component="main"
-        sx={{
-          flexGrow: 1,
-          px: { xs: 2, sm: 3 },
-          py: { xs: 3, md: 4 },
-          width: { md: `calc(100% - ${DRAWER_WIDTH}px)` },
-          maxWidth,
-          mx: { md: 'auto' },
-          minWidth: 0,
-        }}
-      >
-        {children}
+        <Box
+          component="main"
+          sx={{
+            flexGrow: 1,
+            px: { xs: 2, sm: 3 },
+            py: { xs: 3, md: 4 },
+            width: { md: `calc(100% - ${DRAWER_WIDTH}px)` },
+            maxWidth,
+            mx: { md: 'auto' },
+            minWidth: 0,
+          }}
+        >
+          {children}
+        </Box>
       </Box>
     </Box>
   );
