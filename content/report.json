@@ -1,0 +1,392 @@
+{
+  "processed": 526,
+  "wrappers": 32,
+  "hubs": [
+    {
+      "route": "/students/subjects/",
+      "dir": "students/subjects",
+      "title": "Subjects",
+      "children": [
+        {
+          "route": "/students/subjects/experiments/",
+          "title": "Physics — Experiments",
+          "kind": "content"
+        },
+        {
+          "route": "/students/subjects/accounting/",
+          "title": "Accounting",
+          "kind": "dir"
+        },
+        {
+          "route": "/students/subjects/biology/",
+          "title": "Biology",
+          "kind": "dir"
+        },
+        {
+          "route": "/students/subjects/chemistry/",
+          "title": "Chemistry",
+          "kind": "dir"
+        },
+        {
+          "route": "/students/subjects/commerce/",
+          "title": "Commerce",
+          "kind": "dir"
+        },
+        {
+          "route": "/students/subjects/economics/",
+          "title": "Economics",
+          "kind": "dir"
+        },
+        {
+          "route": "/students/subjects/english/",
+          "title": "English",
+          "kind": "dir"
+        },
+        {
+          "route": "/students/subjects/government/",
+          "title": "Government",
+          "kind": "dir"
+        },
+        {
+          "route": "/students/subjects/literature/",
+          "title": "Literature",
+          "kind": "dir"
+        },
+        {
+          "route": "/students/subjects/mathematics/",
+          "title": "Mathematics",
+          "kind": "dir"
+        },
+        {
+          "route": "/students/subjects/physics/",
+          "title": "Physics",
+          "kind": "dir"
+        },
+        {
+          "route": "/students/subjects/ISPRING/",
+          "title": "ISPRING",
+          "kind": "dir"
+        },
+        {
+          "route": "/students/subjects/waves/",
+          "title": "Waves",
+          "kind": "dir"
+        }
+      ]
+    },
+    {
+      "route": "/students/subjects/ISPRING/",
+      "dir": "students/subjects/ISPRING",
+      "title": "ISPRING",
+      "children": [
+        {
+          "route": "/students/subjects/ISPRING/Steps-Published/",
+          "title": "Steps (Published)",
+          "kind": "dir"
+        }
+      ]
+    },
+    {
+      "route": "/students/subjects/accounting/",
+      "dir": "students/subjects/accounting",
+      "title": "Accounting",
+      "children": [
+        {
+          "route": "/students/subjects/accounting/accounting-explanation-new/",
+          "title": "Accounting Topic Explanation - JUANOVA CORTEX",
+          "kind": "division"
+        },
+        {
+          "route": "/students/subjects/accounting/accounting-explanation/",
+          "title": "Accounting Topic Explanation - JUANOVA CORTEX",
+          "kind": "division"
+        },
+        {
+          "route": "/students/subjects/accounting/accounting-main/",
+          "title": "Accounting Course Overview - JUANOVA CORTEX",
+          "kind": "division"
+        },
+        {
+          "route": "/students/subjects/accounting/accounting-new/",
+          "title": "Accounting - JUANOVA CORTEX",
+          "kind": "division"
+        },
+        {
+          "route": "/students/subjects/accounting/accounting-topic-new/",
+          "title": "Accounting Topics - JUANOVA CORTEX",
+          "kind": "division"
+        },
+        {
+          "route": "/students/subjects/accounting/accounting-topic-updated/",
+          "title": "Accounting Topic - JUANOVA CORTEX",
+          "kind": "division"
+        },
+        {
+          "route": "/students/subjects/accounting/accounting-topic/",
+          "title": "Accounting Topic - JUANOVA CORTEX",
+          "kind": "division"
+        },
+        {
+          "route": "/students/subjects/accounting/accounting-topics/",
+          "title": "Accounting Topics - JUANOVA CORTEX",
+          "kind": "division"
+        },
+        {
+          "route": "/students/subjects/accounting/accounting-updated/",
+          "title": "Accounting - JUANOVA CORTEX",
+          "kind": "division"
+        },
+        {
+          "route": "/students/subjects/accounting/accounting/",
+          "title": "Accounting - JUANOVA CORTEX",
+          "kind": "division"
+        }
+      ]
+    },
+    {
+      "route": "/students/subjects/commerce/",
+      "dir": "students/subjects/commerce",
+      "title": "Commerce",
+      "children": [
+        {
+          "route": "/students/subjects/commerce/commerce-explanation/",
+          "title": "Commerce - Explanation",
+          "kind": "division"
+        },
+        {
+          "route": "/students/subjects/commerce/commerce-topic/",
+          "title": "Commerce - Topics",
+          "kind": "division"
+        },
+        {
+          "route": "/students/subjects/commerce/commerce/",
+          "title": "Commerce - Units",
+          "kind": "division"
+        }
+      ]
+    },
+    {
+      "route": "/students/subjects/economics/",
+      "dir": "students/subjects/economics",
+      "title": "Economics",
+      "children": [
+        {
+          "route": "/students/subjects/economics/economics-explanation/",
+          "title": "Economics - Explanation",
+          "kind": "division"
+        },
+        {
+          "route": "/students/subjects/economics/economics-topic/",
+          "title": "Economics - Topics",
+          "kind": "division"
+        },
+        {
+          "route": "/students/subjects/economics/economics/",
+          "title": "Economics - Units",
+          "kind": "division"
+        }
+      ]
+    },
+    {
+      "route": "/students/subjects/government/",
+      "dir": "students/subjects/government",
+      "title": "Government",
+      "children": [
+        {
+          "route": "/students/subjects/government/government-explanation/",
+          "title": "Government - Explanation",
+          "kind": "division"
+        },
+        {
+          "route": "/students/subjects/government/government-topic/",
+          "title": "Government - Topics",
+          "kind": "division"
+        },
+        {
+          "route": "/students/subjects/government/government/",
+          "title": "Government — Dashboard",
+          "kind": "division"
+        }
+      ]
+    },
+    {
+      "route": "/students/subjects/literature/",
+      "dir": "students/subjects/literature",
+      "title": "Literature",
+      "children": [
+        {
+          "route": "/students/subjects/literature/literature-appreciation/",
+          "title": "Literary Appreciation - Literature",
+          "kind": "division"
+        },
+        {
+          "route": "/students/subjects/literature/literature-drama/",
+          "title": "Drama - Literature",
+          "kind": "division"
+        },
+        {
+          "route": "/students/subjects/literature/literature-explanation/",
+          "title": "Literature - Explanation",
+          "kind": "division"
+        },
+        {
+          "route": "/students/subjects/literature/literature-poetry/",
+          "title": "Poetry - Literature",
+          "kind": "division"
+        },
+        {
+          "route": "/students/subjects/literature/literature-principles/",
+          "title": "General Literary Principles - Literature",
+          "kind": "division"
+        },
+        {
+          "route": "/students/subjects/literature/literature-prose/",
+          "title": "Prose - Literature",
+          "kind": "division"
+        },
+        {
+          "route": "/students/subjects/literature/literature-texts/",
+          "title": "Recommended Texts - Literature",
+          "kind": "division"
+        },
+        {
+          "route": "/students/subjects/literature/literature/",
+          "title": "Literature — Dashboard",
+          "kind": "division"
+        }
+      ]
+    },
+    {
+      "route": "/students/subjects/waves/",
+      "dir": "students/subjects/waves",
+      "title": "Waves",
+      "children": [
+        {
+          "route": "/students/subjects/waves/bending-light_en/",
+          "title": "bending-light en",
+          "kind": "sim"
+        },
+        {
+          "route": "/students/subjects/waves/geometric-optics-basics_en/",
+          "title": "geometric-optics-basics en",
+          "kind": "sim"
+        },
+        {
+          "route": "/students/subjects/waves/geometric-optics_en/",
+          "title": "geometric-optics en",
+          "kind": "sim"
+        },
+        {
+          "route": "/students/subjects/waves/molecules-and-light_en/",
+          "title": "molecules-and-light en",
+          "kind": "sim"
+        },
+        {
+          "route": "/students/subjects/waves/sound-waves_en/",
+          "title": "sound-waves en",
+          "kind": "sim"
+        },
+        {
+          "route": "/students/subjects/waves/wave-interference_en/",
+          "title": "wave-interference en",
+          "kind": "sim"
+        },
+        {
+          "route": "/students/subjects/waves/wave-on-a-string_en/",
+          "title": "wave-on-a-string en",
+          "kind": "sim"
+        },
+        {
+          "route": "/students/subjects/waves/waves-intro_en/",
+          "title": "waves-intro en",
+          "kind": "sim"
+        }
+      ]
+    }
+  ],
+  "assets": 454,
+  "missingTargets": [
+    "students/digital-library-supabase.html → student-dashboard-supabase.html",
+    "students/fgvb.html → img /assets/brand/logo-v3-clickup-light.svg",
+    "students/fgvb.html → img /assets/home-test/view-work-your-way.png",
+    "students/fgvb.html → img /assets/home-test/search-everything.png",
+    "students/fgvb.html → img /assets/home-test/stay-ahead.png",
+    "students/fgvb.html → img /assets/v4/iso-27001.png",
+    "students/formula-bank-supabase.html → student-dashboard-supabase.html",
+    "students/js/student-template.html → img ../cortex-owl-brain.svg",
+    "students/learning-progress.html → subject.html",
+    "students/learning-report.html → subjects.html",
+    "students/news-feed-supabase.html → student-dashboard-supabase.html",
+    "students/notes-supabase.html → student-dashboard-supabase.html",
+    "students/notifications-supabase.html → student-dashboard-supabase.html",
+    "students/student-live-session-supabase.html → student-dashboard-supabase.html",
+    "students/study-plan-supabase.html → student-dashboard-supabase.html",
+    "students/study-plan.html → student-dashboard-supabase.html",
+    "students/subjects/accounting/accounting-updated.html → img ../../assets/images/logo.png",
+    "students/subjects/accounting/accounting.html → img ../../assets/images/logo.png",
+    "students/subjects/biology/biology.html → biology-topic.html",
+    "students/subjects/biology/reproduction/index.html → ./plant-reproduction.html",
+    "students/subjects/biology/reproduction/index.html → ./human-reproduction.html",
+    "students/subjects/chemistry/acids-bases/index.html → buffers.html",
+    "students/subjects/chemistry/acids-bases/index.html → acid-base-titrations.html",
+    "students/subjects/chemistry/acids-bases/index.html → hydrolysis-of-salts.html",
+    "students/subjects/chemistry/acids-bases/index.html → indicators.html",
+    "students/subjects/chemistry/chemistry-basic.html → img ../../assets/images/logo.png",
+    "students/subjects/chemistry/chemistry-industrial.html → img ../../assets/images/logo.png",
+    "students/subjects/chemistry/inorganic-chemistry/index.html → halogens.html",
+    "students/subjects/chemistry/inorganic-chemistry/index.html → metals-and-extraction.html",
+    "students/subjects/chemistry/inorganic-chemistry/index.html → transition-metals.html",
+    "students/subjects/english/core-grammar/index.html → tenses-aspect.html",
+    "students/subjects/english/core-grammar/index.html → reported-speech.html",
+    "students/subjects/english/foundations/index.html → sentence-concepts.html",
+    "students/subjects/english/mechanics-punctuation/index.html → spelling.html",
+    "students/subjects/english/phonetics-oral/index.html → ipa-basics.html",
+    "students/subjects/english/phonetics-oral/index.html → stress-intonation.html",
+    "students/subjects/experiments.html → ../teacher-dashboard-physics.html",
+    "students/subjects/experiments.html → resources.html",
+    "students/subjects/experiments.html → syllabus.html",
+    "students/subjects/experiments.html → past-questions.html",
+    "students/subjects/experiments.html → discussion.html",
+    "students/subjects/experiments.html → settings.html",
+    "students/subjects/experiments.html → ./teachers/physics dashboard/experiments-pendulum.html",
+    "students/subjects/mathematics/algebraic-foundations/algebra-basics.html → ../algebraic-foundations.html",
+    "students/subjects/mathematics/algebraic-foundations/algebra-basics.html → ../mathematics.html",
+    "students/subjects/mathematics/algebraic-foundations/factorization.html → ../algebraic-foundations.html",
+    "students/subjects/mathematics/algebraic-foundations/factorization.html → ../mathematics.html",
+    "students/subjects/mathematics/algebraic-foundations/indices.html → ../algebraic-foundations.html",
+    "students/subjects/mathematics/algebraic-foundations/indices.html → ../mathematics.html",
+    "students/subjects/mathematics/algebraic-foundations/linear-equations-inequalities.html → ../algebraic-foundations.html",
+    "students/subjects/mathematics/algebraic-foundations/linear-equations-inequalities.html → ../mathematics.html",
+    "students/subjects/mathematics/algebraic-foundations/polynomials.html → ../algebraic-foundations.html",
+    "students/subjects/mathematics/algebraic-foundations/polynomials.html → ../mathematics.html",
+    "students/subjects/mathematics/algebraic-foundations/quadratic-equation.html → mathematics.html",
+    "students/subjects/mathematics/algebraic-foundations/quadratic-equations.html → mathematics.html",
+    "students/subjects/mathematics/algebraic-foundations/sequences-progressions.html → ../algebraic-foundations.html",
+    "students/subjects/mathematics/algebraic-foundations/sequences-progressions.html → ../mathematics.html",
+    "students/subjects/mathematics/geometry-trigonometry/angles.html → ../mathematics.html",
+    "students/subjects/mathematics/geometry-trigonometry/bearings.html → ../mathematics.html",
+    "students/subjects/mathematics/geometry-trigonometry/circles.html → ../mathematics.html",
+    "students/subjects/mathematics/geometry-trigonometry/constructions.html → ../mathematics.html",
+    "students/subjects/mathematics/geometry-trigonometry/coordinate-geometry.html → ../mathematics.html",
+    "students/subjects/mathematics/geometry-trigonometry/elevation-depression.html → ../mathematics.html",
+    "students/subjects/physics/optics/index.html → lenses.html",
+    "students/subjects/physics/optics/index.html → instruments.html",
+    "students/subjects/physics/optics/index.html → lasers.html",
+    "students/subjects/physics/waves/index.html → wave-properties.html",
+    "students/subjects/physics/waves/index.html → sound-waves.html",
+    "students/subjects/physics/waves/index.html → shm-applications.html",
+    "students/subjects/zdfxfbfvd.html → mathematics.html",
+    "students/textbooks-supabase.html → student-dashboard-supabase.html",
+    "students/textbooks-supabase.html → img /assets/images/math-textbook-cover.jpg",
+    "students/textbooks-supabase.html → img /assets/images/physics-textbook-cover.jpg",
+    "students/textbooks-supabase.html → img /assets/images/chemistry-textbook-cover.jpg",
+    "students/textbooks-supabase.html → img /assets/images/biology-textbook-cover.jpg",
+    "students/textbooks.html → student-dashboard-supabase.html",
+    "students/textbooks.html → img /assets/images/math-textbook-cover.jpg",
+    "students/textbooks.html → img /assets/images/physics-textbook-cover.jpg",
+    "students/textbooks.html → img /assets/images/chemistry-textbook-cover.jpg",
+    "students/textbooks.html → img /assets/images/biology-textbook-cover.jpg",
+    "students/zdfxfbfvd.html → mathematics.html"
+  ],
+  "warnings": []
+}

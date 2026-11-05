@@ -1,0 +1,303 @@
+[
+  {
+    "route": "/students/subjects/",
+    "dir": "students/subjects",
+    "title": "Subjects",
+    "children": [
+      {
+        "route": "/students/subjects/experiments/",
+        "title": "Physics — Experiments",
+        "kind": "content"
+      },
+      {
+        "route": "/students/subjects/accounting/",
+        "title": "Accounting",
+        "kind": "dir"
+      },
+      {
+        "route": "/students/subjects/biology/",
+        "title": "Biology",
+        "kind": "dir"
+      },
+      {
+        "route": "/students/subjects/chemistry/",
+        "title": "Chemistry",
+        "kind": "dir"
+      },
+      {
+        "route": "/students/subjects/commerce/",
+        "title": "Commerce",
+        "kind": "dir"
+      },
+      {
+        "route": "/students/subjects/economics/",
+        "title": "Economics",
+        "kind": "dir"
+      },
+      {
+        "route": "/students/subjects/english/",
+        "title": "English",
+        "kind": "dir"
+      },
+      {
+        "route": "/students/subjects/government/",
+        "title": "Government",
+        "kind": "dir"
+      },
+      {
+        "route": "/students/subjects/literature/",
+        "title": "Literature",
+        "kind": "dir"
+      },
+      {
+        "route": "/students/subjects/mathematics/",
+        "title": "Mathematics",
+        "kind": "dir"
+      },
+      {
+        "route": "/students/subjects/physics/",
+        "title": "Physics",
+        "kind": "dir"
+      },
+      {
+        "route": "/students/subjects/ISPRING/",
+        "title": "ISPRING",
+        "kind": "dir"
+      },
+      {
+        "route": "/students/subjects/waves/",
+        "title": "Waves",
+        "kind": "dir"
+      }
+    ]
+  },
+  {
+    "route": "/students/subjects/ISPRING/",
+    "dir": "students/subjects/ISPRING",
+    "title": "ISPRING",
+    "children": [
+      {
+        "route": "/students/subjects/ISPRING/Steps-Published/",
+        "title": "Steps (Published)",
+        "kind": "dir"
+      }
+    ]
+  },
+  {
+    "route": "/students/subjects/accounting/",
+    "dir": "students/subjects/accounting",
+    "title": "Accounting",
+    "children": [
+      {
+        "route": "/students/subjects/accounting/accounting-explanation-new/",
+        "title": "Accounting Topic Explanation - JUANOVA CORTEX",
+        "kind": "division"
+      },
+      {
+        "route": "/students/subjects/accounting/accounting-explanation/",
+        "title": "Accounting Topic Explanation - JUANOVA CORTEX",
+        "kind": "division"
+      },
+      {
+        "route": "/students/subjects/accounting/accounting-main/",
+        "title": "Accounting Course Overview - JUANOVA CORTEX",
+        "kind": "division"
+      },
+      {
+        "route": "/students/subjects/accounting/accounting-new/",
+        "title": "Accounting - JUANOVA CORTEX",
+        "kind": "division"
+      },
+      {
+        "route": "/students/subjects/accounting/accounting-topic-new/",
+        "title": "Accounting Topics - JUANOVA CORTEX",
+        "kind": "division"
+      },
+      {
+        "route": "/students/subjects/accounting/accounting-topic-updated/",
+        "title": "Accounting Topic - JUANOVA CORTEX",
+        "kind": "division"
+      },
+      {
+        "route": "/students/subjects/accounting/accounting-topic/",
+        "title": "Accounting Topic - JUANOVA CORTEX",
+        "kind": "division"
+      },
+      {
+        "route": "/students/subjects/accounting/accounting-topics/",
+        "title": "Accounting Topics - JUANOVA CORTEX",
+        "kind": "division"
+      },
+      {
+        "route": "/students/subjects/accounting/accounting-updated/",
+        "title": "Accounting - JUANOVA CORTEX",
+        "kind": "division"
+      },
+      {
+        "route": "/students/subjects/accounting/accounting/",
+        "title": "Accounting - JUANOVA CORTEX",
+        "kind": "division"
+      }
+    ]
+  },
+  {
+    "route": "/students/subjects/commerce/",
+    "dir": "students/subjects/commerce",
+    "title": "Commerce",
+    "children": [
+      {
+        "route": "/students/subjects/commerce/commerce-explanation/",
+        "title": "Commerce - Explanation",
+        "kind": "division"
+      },
+      {
+        "route": "/students/subjects/commerce/commerce-topic/",
+        "title": "Commerce - Topics",
+        "kind": "division"
+      },
+      {
+        "route": "/students/subjects/commerce/commerce/",
+        "title": "Commerce - Units",
+        "kind": "division"
+      }
+    ]
+  },
+  {
+    "route": "/students/subjects/economics/",
+    "dir": "students/subjects/economics",
+    "title": "Economics",
+    "children": [
+      {
+        "route": "/students/subjects/economics/economics-explanation/",
+        "title": "Economics - Explanation",
+        "kind": "division"
+      },
+      {
+        "route": "/students/subjects/economics/economics-topic/",
+        "title": "Economics - Topics",
+        "kind": "division"
+      },
+      {
+        "route": "/students/subjects/economics/economics/",
+        "title": "Economics - Units",
+        "kind": "division"
+      }
+    ]
+  },
+  {
+    "route": "/students/subjects/government/",
+    "dir": "students/subjects/government",
+    "title": "Government",
+    "children": [
+      {
+        "route": "/students/subjects/government/government-explanation/",
+        "title": "Government - Explanation",
+        "kind": "division"
+      },
+      {
+        "route": "/students/subjects/government/government-topic/",
+        "title": "Government - Topics",
+        "kind": "division"
+      },
+      {
+        "route": "/students/subjects/government/government/",
+        "title": "Government — Dashboard",
+        "kind": "division"
+      }
+    ]
+  },
+  {
+    "route": "/students/subjects/literature/",
+    "dir": "students/subjects/literature",
+    "title": "Literature",
+    "children": [
+      {
+        "route": "/students/subjects/literature/literature-appreciation/",
+        "title": "Literary Appreciation - Literature",
+        "kind": "division"
+      },
+      {
+        "route": "/students/subjects/literature/literature-drama/",
+        "title": "Drama - Literature",
+        "kind": "division"
+      },
+      {
+        "route": "/students/subjects/literature/literature-explanation/",
+        "title": "Literature - Explanation",
+        "kind": "division"
+      },
+      {
+        "route": "/students/subjects/literature/literature-poetry/",
+        "title": "Poetry - Literature",
+        "kind": "division"
+      },
+      {
+        "route": "/students/subjects/literature/literature-principles/",
+        "title": "General Literary Principles - Literature",
+        "kind": "division"
+      },
+      {
+        "route": "/students/subjects/literature/literature-prose/",
+        "title": "Prose - Literature",
+        "kind": "division"
+      },
+      {
+        "route": "/students/subjects/literature/literature-texts/",
+        "title": "Recommended Texts - Literature",
+        "kind": "division"
+      },
+      {
+        "route": "/students/subjects/literature/literature/",
+        "title": "Literature — Dashboard",
+        "kind": "division"
+      }
+    ]
+  },
+  {
+    "route": "/students/subjects/waves/",
+    "dir": "students/subjects/waves",
+    "title": "Waves",
+    "children": [
+      {
+        "route": "/students/subjects/waves/bending-light_en/",
+        "title": "bending-light en",
+        "kind": "sim"
+      },
+      {
+        "route": "/students/subjects/waves/geometric-optics-basics_en/",
+        "title": "geometric-optics-basics en",
+        "kind": "sim"
+      },
+      {
+        "route": "/students/subjects/waves/geometric-optics_en/",
+        "title": "geometric-optics en",
+        "kind": "sim"
+      },
+      {
+        "route": "/students/subjects/waves/molecules-and-light_en/",
+        "title": "molecules-and-light en",
+        "kind": "sim"
+      },
+      {
+        "route": "/students/subjects/waves/sound-waves_en/",
+        "title": "sound-waves en",
+        "kind": "sim"
+      },
+      {
+        "route": "/students/subjects/waves/wave-interference_en/",
+        "title": "wave-interference en",
+        "kind": "sim"
+      },
+      {
+        "route": "/students/subjects/waves/wave-on-a-string_en/",
+        "title": "wave-on-a-string en",
+        "kind": "sim"
+      },
+      {
+        "route": "/students/subjects/waves/waves-intro_en/",
+        "title": "waves-intro en",
+        "kind": "sim"
+      }
+    ]
+  }
+]
