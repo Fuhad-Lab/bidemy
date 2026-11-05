@@ -1,22 +1,13 @@
 import type { Metadata, Viewport } from "next";
-import { Plus_Jakarta_Sans, Inter } from "next/font/google";
 import "./globals.css";
 import "@/styles/content-utilities.css";
 import SiteProviders from "@/components/site/SiteProviders";
 
-const jakarta = Plus_Jakarta_Sans({
-  variable: "--font-jakarta",
-  subsets: ["latin"],
-  weight: ["300", "400", "500", "600", "700", "800"],
-  display: "swap",
-});
-
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  display: "swap",
-});
+/**
+ * Fonts are loaded at runtime via <link> (same approach as the original
+ * site) instead of next/font/google — this keeps builds fully offline-safe
+ * (no network dependency at build time).
+ */
 
 export const metadata: Metadata = {
   title: "Bidemy | Best FREE eLearning Platform",
@@ -46,6 +37,12 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link
+          rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap"
+        />
         <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/icon?family=Material+Icons"
@@ -55,7 +52,7 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
         />
       </head>
-      <body className={`${jakarta.variable} ${inter.variable}`}>
+      <body>
         <SiteProviders>{children}</SiteProviders>
       </body>
     </html>
